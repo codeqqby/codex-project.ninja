@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b49d3c994d48f26b7aa259390b3b834",
-    "content-hash": "f85a0bd9c948a636de32280b4c0be39f",
+    "hash": "4eb05de4f29b45c8e38be027ad4864ae",
+    "content-hash": "09e34d1d4a4d63f39dbc08b86b9ccdc0",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -177,17 +177,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/addon-git.git",
-                "reference": "ab3b5caff14f8a1cbb45218a4f0ab3d280d1d16a"
+                "reference": "2e4cdde8bbc9596d15d931c26e1608ac5a63cf6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/addon-git/zipball/ab3b5caff14f8a1cbb45218a4f0ab3d280d1d16a",
-                "reference": "ab3b5caff14f8a1cbb45218a4f0ab3d280d1d16a",
+                "url": "https://api.github.com/repos/codex-project/addon-git/zipball/2e4cdde8bbc9596d15d931c26e1608ac5a63cf6a",
+                "reference": "2e4cdde8bbc9596d15d931c26e1608ac5a63cf6a",
                 "shasum": ""
             },
             "require": {
                 "codex/composer-plugin": "~1.0",
-                "codex/core": "1.0.*"
+                "codex/core": "1.0.*",
+                "sebwite/git": "1.0.*@dev"
             },
             "type": "codex-addon",
             "extra": {
@@ -210,7 +211,7 @@
                 }
             ],
             "description": "addon",
-            "time": "2016-05-28 20:01:01"
+            "time": "2016-05-30 21:29:32"
         },
         {
             "name": "codex/addon-markdown",
@@ -218,12 +219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/addon-markdown.git",
-                "reference": "4676bcae1eca7d0cc7cc4af45bd5b3d1f17e7dd3"
+                "reference": "a8a1093f7a26ae67f037cd20a00d6b070de3f4a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/addon-markdown/zipball/4676bcae1eca7d0cc7cc4af45bd5b3d1f17e7dd3",
-                "reference": "4676bcae1eca7d0cc7cc4af45bd5b3d1f17e7dd3",
+                "url": "https://api.github.com/repos/codex-project/addon-markdown/zipball/a8a1093f7a26ae67f037cd20a00d6b070de3f4a8",
+                "reference": "a8a1093f7a26ae67f037cd20a00d6b070de3f4a8",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +265,7 @@
                 }
             ],
             "description": "addon",
-            "time": "2016-05-29 10:13:54"
+            "time": "2016-05-30 20:34:41"
         },
         {
             "name": "codex/addon-phpdoc",
@@ -272,12 +273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/addon-phpdoc.git",
-                "reference": "120e5b72e1a46c4926fb9e9ccea4721edc7df14d"
+                "reference": "ef99cec2308eb34cfc073c61713be6921b662617"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/addon-phpdoc/zipball/120e5b72e1a46c4926fb9e9ccea4721edc7df14d",
-                "reference": "120e5b72e1a46c4926fb9e9ccea4721edc7df14d",
+                "url": "https://api.github.com/repos/codex-project/addon-phpdoc/zipball/ef99cec2308eb34cfc073c61713be6921b662617",
+                "reference": "ef99cec2308eb34cfc073c61713be6921b662617",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +306,7 @@
                 }
             ],
             "description": "addon",
-            "time": "2016-05-29 10:13:55"
+            "time": "2016-05-30 20:33:02"
         },
         {
             "name": "codex/composer-plugin",
@@ -313,12 +314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/composer-plugin.git",
-                "reference": "d730ed917881e1f5171bb1a9aec3b1804c3a9fe3"
+                "reference": "197793f55eb8e54eb9a358b249d5168bd36f8f6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/composer-plugin/zipball/d730ed917881e1f5171bb1a9aec3b1804c3a9fe3",
-                "reference": "d730ed917881e1f5171bb1a9aec3b1804c3a9fe3",
+                "url": "https://api.github.com/repos/codex-project/composer-plugin/zipball/197793f55eb8e54eb9a358b249d5168bd36f8f6e",
+                "reference": "197793f55eb8e54eb9a358b249d5168bd36f8f6e",
                 "shasum": ""
             },
             "require": {
@@ -338,7 +339,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "sdf",
-            "time": "2016-05-28 17:50:34"
+            "time": "2016-05-30 20:35:41"
         },
         {
             "name": "codex/core",
@@ -346,12 +347,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/core.git",
-                "reference": "397847c443eb9cd5be89dfe130f6653e3d109099"
+                "reference": "c9537ae92e4f50925d644a1682ef100f5e7f6b41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/core/zipball/397847c443eb9cd5be89dfe130f6653e3d109099",
-                "reference": "397847c443eb9cd5be89dfe130f6653e3d109099",
+                "url": "https://api.github.com/repos/codex-project/core/zipball/c9537ae92e4f50925d644a1682ef100f5e7f6b41",
+                "reference": "c9537ae92e4f50925d644a1682ef100f5e7f6b41",
                 "shasum": ""
             },
             "require": {
@@ -413,7 +414,7 @@
                 "laravel",
                 "markdown"
             ],
-            "time": "2016-05-29 18:21:54"
+            "time": "2016-05-30 20:30:35"
         },
         {
             "name": "danielstjules/stringy",
@@ -1037,6 +1038,274 @@
             "time": "2015-03-11 15:46:37"
         },
         {
+            "name": "gentle/bitbucket-api",
+            "version": "0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gentlero/bitbucket-api.git",
+                "reference": "c3de78a5a5939d494cda4293ffae9db47b8d5de9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gentlero/bitbucket-api/zipball/c3de78a5a5939d494cda4293ffae9db47b8d5de9",
+                "reference": "c3de78a5a5939d494cda4293ffae9db47b8d5de9",
+                "shasum": ""
+            },
+            "require": {
+                "jacobkiers/oauth": "~1.0.10",
+                "kriswallsmith/buzz": "~0.13",
+                "php": ">=5.3"
+            },
+            "conflict": {
+                "eabay/bitbucket-repo-sync": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bitbucket\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandru Guzinschi",
+                    "email": "alex@gentle.ro",
+                    "homepage": "http://www.sebi.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Bitbucket API wrapper for PHP >= 5.3",
+            "homepage": "https://bitbucket.org/gentlero/bitbucket-api",
+            "keywords": [
+                "api",
+                "bitbucket"
+            ],
+            "time": "2015-11-07 13:31:32"
+        },
+        {
+            "name": "graham-campbell/github",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Laravel-GitHub.git",
+                "reference": "b35e9569f0ed52587eb99f3f66e704a8fb2f4ac0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-GitHub/zipball/b35e9569f0ed52587eb99f3f66e704a8fb2f4ac0",
+                "reference": "b35e9569f0ed52587eb99f3f66e704a8fb2f4ac0",
+                "shasum": ""
+            },
+            "require": {
+                "graham-campbell/manager": "^2.3",
+                "illuminate/contracts": "5.1.*|5.2.*|5.3.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*",
+                "knplabs/github-api": "^1.3",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "graham-campbell/testbench": "^3.1",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\GitHub\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "GitHub Is A GitHub Bridge For Laravel 5",
+            "keywords": [
+                "Bridge",
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Laravel GitHub",
+                "Laravel-GitHub",
+                "PHP GitHub API",
+                "framework",
+                "github",
+                "github bridge",
+                "laravel",
+                "php-github-api"
+            ],
+            "time": "2016-04-26 14:23:55"
+        },
+        {
+            "name": "graham-campbell/manager",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Laravel-Manager.git",
+                "reference": "fd9052082e2c69c9a67d3e8d7dfa94cb33f8ab0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Manager/zipball/fd9052082e2c69c9a67d3e8d7dfa94cb33f8ab0b",
+                "reference": "fd9052082e2c69c9a67d3e8d7dfa94cb33f8ab0b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.1.*|5.2.*|5.3.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "graham-campbell/testbench-core": "^1.1",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\Manager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "Manager Provides Some Manager Functionality For Laravel 5",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Laravel Manager",
+                "Laravel-Manager",
+                "connector",
+                "framework",
+                "interface",
+                "laravel",
+                "manager"
+            ],
+            "time": "2016-04-26 14:27:59"
+        },
+        {
+            "name": "guzzle/guzzle",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "<2.3",
+                "zendframework/zend-log": "<2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2014-01-28 22:29:15"
+        },
+        {
             "name": "herrera-io/version",
             "version": "1.1.1",
             "source": {
@@ -1086,6 +1355,65 @@
                 "version"
             ],
             "time": "2014-05-27 05:29:25"
+        },
+        {
+            "name": "jacobkiers/oauth",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jacobkiers/OAuth.git",
+                "reference": "95477a77107436e67a10e799fad04d82719a5f1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jacobkiers/OAuth/zipball/95477a77107436e67a10e799fad04d82719a5f1e",
+                "reference": "95477a77107436e67a10e799fad04d82719a5f1e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "3.7.*@stable",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JacobKiers\\OAuth": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gary Jones",
+                    "email": "gary@garyjones.co.uk",
+                    "role": "developer"
+                },
+                {
+                    "name": "Alexandre Eher",
+                    "role": "Composer packager"
+                },
+                {
+                    "name": "Jacob Kiers",
+                    "email": "jacob@alphacomm.nl",
+                    "role": "developer"
+                },
+                {
+                    "name": "Andy Smith",
+                    "role": "original author"
+                }
+            ],
+            "description": "Based on Andy Smith's basic PHP library for OAuth 1.0a",
+            "homepage": "https://github.com/jacobkiers/OAuth",
+            "keywords": [
+                "oauth"
+            ],
+            "time": "2015-10-02 13:50:51"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1233,17 +1561,127 @@
             "time": "2015-12-05 17:17:57"
         },
         {
-            "name": "laravel/framework",
-            "version": "v5.2.34",
+            "name": "knplabs/github-api",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "6a26f3bb6a6e00c53654a661221643ad1b98e146"
+                "url": "https://github.com/KnpLabs/php-github-api.git",
+                "reference": "f77df24a154cdf7461a7ff2712ef271f03a6b85b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6a26f3bb6a6e00c53654a661221643ad1b98e146",
-                "reference": "6a26f3bb6a6e00c53654a661221643ad1b98e146",
+                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/f77df24a154cdf7461a7ff2712ef271f03a6b85b",
+                "reference": "f77df24a154cdf7461a7ff2712ef271f03a6b85b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzle/guzzle": "~3.7",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "sllh/php-cs-fixer-styleci-bridge": "~1.3"
+            },
+            "suggest": {
+                "knplabs/gaufrette": "Needed for optional Gaufrette cache"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Github\\": "lib/Github/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thibault Duplessis",
+                    "email": "thibault.duplessis@gmail.com",
+                    "homepage": "http://ornicar.github.com"
+                },
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                }
+            ],
+            "description": "GitHub API v3 client",
+            "homepage": "https://github.com/KnpLabs/php-github-api",
+            "keywords": [
+                "api",
+                "gh",
+                "gist",
+                "github"
+            ],
+            "time": "2016-05-20 09:54:41"
+        },
+        {
+            "name": "kriswallsmith/buzz",
+            "version": "v0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/Buzz.git",
+                "reference": "d4041666c3ffb379af02a92dabe81c904b35fab8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/d4041666c3ffb379af02a92dabe81c904b35fab8",
+                "reference": "d4041666c3ffb379af02a92dabe81c904b35fab8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Buzz": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Lightweight HTTP client",
+            "homepage": "https://github.com/kriswallsmith/Buzz",
+            "keywords": [
+                "curl",
+                "http client"
+            ],
+            "time": "2015-06-25 17:26:56"
+        },
+        {
+            "name": "laravel/framework",
+            "version": "v5.2.35",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "d2b6b0fe32fab610d356c22e74a6ffd101b0f513"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d2b6b0fe32fab610d356c22e74a6ffd101b0f513",
+                "reference": "d2b6b0fe32fab610d356c22e74a6ffd101b0f513",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1797,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-05-26 21:59:46"
+            "time": "2016-05-30 17:42:01"
         },
         {
             "name": "league/flysystem",
@@ -1965,24 +2403,84 @@
             "time": "2016-05-18 13:57:10"
         },
         {
-            "name": "predis/predis",
-            "version": "v1.0.3",
+            "name": "potherca/flysystem-github",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
-                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04"
+                "url": "https://github.com/potherca/flysystem-github.git",
+                "reference": "9f77b42adc882ad62f6e5b188dc427dbbce5aa7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/84060b9034d756b4d79641667d7f9efe1aeb8e04",
-                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04",
+                "url": "https://api.github.com/repos/potherca/flysystem-github/zipball/9f77b42adc882ad62f6e5b188dc427dbbce5aa7c",
+                "reference": "9f77b42adc882ad62f6e5b188dc427dbbce5aa7c",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/github-api": "^1.4",
+                "league/flysystem": "^1.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7.7",
+                "satooshi/php-coveralls": "^0.6.1",
+                "scrutinizer/ocular": "^1.1",
+                "whatthejeff/nyancat-phpunit-resultprinter": "^1.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Potherca\\Flysystem\\Github\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Potherca",
+                    "email": "potherca@gmail.com",
+                    "homepage": "http://pother.ca/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flysystem adapter for Github",
+            "homepage": "https://github.com/potherca/flysystem-github",
+            "keywords": [
+                "Flysystem",
+                "adapter",
+                "flysystem-adapter",
+                "flysystem-github",
+                "github",
+                "potherca"
+            ],
+            "time": "2015-07-21 21:37:35"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "9ead747663bb1b1ae017dfa0d152aca87792b42f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/9ead747663bb1b1ae017dfa0d152aca87792b42f",
+                "reference": "9ead747663bb1b1ae017dfa0d152aca87792b42f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-curl": "Allows access to Webdis when paired with phpiredis",
@@ -2005,14 +2503,14 @@
                     "homepage": "http://clorophilla.net"
                 }
             ],
-            "description": "Flexible and feature-complete PHP client library for Redis",
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
             "homepage": "http://github.com/nrk/predis",
             "keywords": [
                 "nosql",
                 "predis",
                 "redis"
             ],
-            "time": "2015-07-30 18:34:15"
+            "time": "2016-05-30 15:25:52"
         },
         {
             "name": "psr/log",
@@ -2315,6 +2813,56 @@
             "time": "2016-04-24 22:16:34"
         },
         {
+            "name": "sebwite/git",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/sebwitepackages/sebwite-git.git",
+                "reference": "3c4f08b8f636ec5db1c5453058aeca3bc2def13c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/sebwitepackages/sebwite-git/get/3c4f08b8f636ec5db1c5453058aeca3bc2def13c.zip",
+                "reference": "3c4f08b8f636ec5db1c5453058aeca3bc2def13c",
+                "shasum": ""
+            },
+            "require": {
+                "gentle/bitbucket-api": "0.7.*",
+                "graham-campbell/github": "~4.2",
+                "php": ">=5.5.9",
+                "potherca/flysystem-github": "0.2.*",
+                "sebwite/support": "2.0.*",
+                "vierbergenlars/php-semver": "~3.0"
+            },
+            "require-dev": {
+                "sebwite/phing": "1.0.*",
+                "sebwite/testing": "1.0.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sebwite\\Git\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebwite",
+                    "email": "info@sebwite.nl"
+                }
+            ],
+            "description": "Github/Bitbucket api with equal interface and flysystem.",
+            "time": "2016-05-31 02:17:08"
+        },
+        {
             "name": "sebwite/support",
             "version": "2.0.0",
             "source": {
@@ -2441,16 +2989,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "24f155da1ff180df8e15e34a8f6e2f8a0eadefa8"
+                "reference": "048dc47e07f92333203c3b7045868bbc864fc40e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/24f155da1ff180df8e15e34a8f6e2f8a0eadefa8",
-                "reference": "24f155da1ff180df8e15e34a8f6e2f8a0eadefa8",
+                "url": "https://api.github.com/repos/symfony/config/zipball/048dc47e07f92333203c3b7045868bbc864fc40e",
+                "reference": "048dc47e07f92333203c3b7045868bbc864fc40e",
                 "shasum": ""
             },
             "require": {
@@ -2463,7 +3011,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -2490,7 +3038,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-20 18:53:54"
+            "time": "2016-05-20 11:48:17"
         },
         {
             "name": "symfony/console",
@@ -2611,16 +3159,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "807dde98589f9b2b00624dca326740380d78dbbc"
+                "reference": "0343b2cedd0edb26cdc791212a8eb645c406018b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/807dde98589f9b2b00624dca326740380d78dbbc",
-                "reference": "807dde98589f9b2b00624dca326740380d78dbbc",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/0343b2cedd0edb26cdc791212a8eb645c406018b",
+                "reference": "0343b2cedd0edb26cdc791212a8eb645c406018b",
                 "shasum": ""
             },
             "require": {
@@ -2640,7 +3188,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -2667,20 +3215,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-05 06:56:13"
+            "time": "2016-04-12 18:27:47"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "74fec3511b62cb934b64bce1d96f06fffa4beafd"
+                "reference": "5751e80d6f94b7c018f338a4a7be0b700d6f3058"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/74fec3511b62cb934b64bce1d96f06fffa4beafd",
-                "reference": "74fec3511b62cb934b64bce1d96f06fffa4beafd",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/5751e80d6f94b7c018f338a4a7be0b700d6f3058",
+                "reference": "5751e80d6f94b7c018f338a4a7be0b700d6f3058",
                 "shasum": ""
             },
             "require": {
@@ -2689,7 +3237,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -2716,7 +3264,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-12 18:09:53"
+            "time": "2016-04-12 18:27:47"
         },
         {
             "name": "symfony/finder",
@@ -3322,16 +3870,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0047c8366744a16de7516622c5b7355336afae96"
+                "reference": "eca51b7b65eb9be6af88ad7cc91685f1556f5c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0047c8366744a16de7516622c5b7355336afae96",
-                "reference": "0047c8366744a16de7516622c5b7355336afae96",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/eca51b7b65eb9be6af88ad7cc91685f1556f5c9a",
+                "reference": "eca51b7b65eb9be6af88ad7cc91685f1556f5c9a",
                 "shasum": ""
             },
             "require": {
@@ -3340,7 +3888,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -3367,7 +3915,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-04 07:55:57"
+            "time": "2016-05-26 21:46:24"
         },
         {
             "name": "vierbergenlars/php-semver",
@@ -4648,47 +5196,10 @@
             "time": "2016-04-12 18:09:53"
         }
     ],
-    "aliases": [
-        {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
-            "version": "9999999-dev",
-            "package": "codex/core"
-        },
-        {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
-            "version": "9999999-dev",
-            "package": "codex/composer-plugin"
-        },
-        {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
-            "version": "9999999-dev",
-            "package": "codex/addon-markdown"
-        },
-        {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
-            "version": "9999999-dev",
-            "package": "codex/addon-phpdoc"
-        },
-        {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
-            "version": "9999999-dev",
-            "package": "codex/addon-git"
-        }
-    ],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "codex/core": 20,
-        "codex/composer-plugin": 20,
-        "codex/addon-markdown": 20,
-        "codex/addon-phpdoc": 20,
-        "codex/addon-git": 20
-    },
-    "prefer-stable": false,
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.5.9"

@@ -7,7 +7,10 @@
 
 return [
     'display_name' => 'Codex',
-    'filters' => [
-        'enabled' => ['markdown', 'attributes', 'toc']
-    ]
+    'filters'      => [
+        'enabled' => [ 'markdown', 'attributes', 'toc' ],
+    ],
+    'github'       => [
+        'enabled' => true,
+    ],
 ];

@@ -4,15 +4,17 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "predis/predis": "1.0.*",
-        "codex/core": "dev-master as 1.0.x-dev",
-        "codex/composer-plugin": "dev-master as 1.0.x-dev",
-        "codex/addon-markdown": "dev-master as 1.0.x-dev",
-        "codex/addon-phpdoc": "dev-master as 1.0.x-dev",
-        "codex/addon-git": "dev-master as 1.0.x-dev"
+        "codex/core": "1.0.*",
+        "codex/composer-plugin": "1.0.*",
+        "codex/addon-markdown": "1.0.*",
+        "codex/addon-phpdoc": "1.0.*",
+        "codex/addon-git": "1.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

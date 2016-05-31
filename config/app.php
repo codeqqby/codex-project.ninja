@@ -149,7 +149,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         Codex\Core\CodexServiceProvider::class,
-        Codex\Addon\Phpdoc\PhpdocServiceProvider::class
+        Codex\Addon\Phpdoc\PhpdocServiceProvider::class,
+        Codex\Addon\Git\GitServiceProvider::class,
     ],
 
     /*

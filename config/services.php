@@ -35,4 +35,16 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'github' => [
+        'driver' => 'github',
+        'auth'   => Sebwite\Git\Manager::AUTH_TOKEN,
+        'secret' => env('GITHUB_SECRET')
+    ],
+
+    'bitbucket' => [
+        'driver'      => 'bitbucket',
+        'auth'   => Sebwite\Git\Manager::AUTH_OAUTH,
+        'key'    => env('BITBUCKET_KEY', ''),
+        'secret' => env('BITBUCKET_SECRET', '')
+    ],
 ];
