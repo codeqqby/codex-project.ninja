@@ -13,7 +13,8 @@
         "codex/core": "1.0.*",
         "codex/composer-plugin": "1.0.*",
         "codex/addon-phpdoc": "1.0.*",
-        "codex/addon-git": "1.0.*"
+        "codex/addon-git": "1.0.*",
+        "sebwite/git": "dev-master as 1.0.x-dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -37,18 +38,19 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "php -r \"copy('.env.example', '.env');\""
+            "plesk php -r \"copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "php artisan key:generate"
+            "plesk php artisan key:generate"
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan optimize"
+            "plesk php artisan optimize",
+            "plesk php artisan vendor:publish --tag=public --force"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php artisan optimize"
+            "plesk php artisan vendor:publish --tag=public --force"
         ]
     },
     "config": {
