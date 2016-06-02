@@ -148,7 +148,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        Codex\Core\CodexServiceProvider::class,
+        Codex\CodexServiceProvider::class,
         Codex\Addon\Phpdoc\PhpdocServiceProvider::class,
         Codex\Addon\Git\GitServiceProvider::class,
     ],

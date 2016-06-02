@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4eb05de4f29b45c8e38be027ad4864ae",
-    "content-hash": "09e34d1d4a4d63f39dbc08b86b9ccdc0",
+    "hash": "6aade3768ce99501a09cb8752d90a6cb",
+    "content-hash": "8be3c05a0648321ec97a2f11c7b4acc8",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -177,12 +177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/addon-git.git",
-                "reference": "2e4cdde8bbc9596d15d931c26e1608ac5a63cf6a"
+                "reference": "a3c64aa41e55fb2c5d4a69b6be56b35a71fa6609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/addon-git/zipball/2e4cdde8bbc9596d15d931c26e1608ac5a63cf6a",
-                "reference": "2e4cdde8bbc9596d15d931c26e1608ac5a63cf6a",
+                "url": "https://api.github.com/repos/codex-project/addon-git/zipball/a3c64aa41e55fb2c5d4a69b6be56b35a71fa6609",
+                "reference": "a3c64aa41e55fb2c5d4a69b6be56b35a71fa6609",
                 "shasum": ""
             },
             "require": {
@@ -211,61 +211,7 @@
                 }
             ],
             "description": "addon",
-            "time": "2016-05-30 21:29:32"
-        },
-        {
-            "name": "codex/addon-markdown",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/codex-project/addon-markdown.git",
-                "reference": "a8a1093f7a26ae67f037cd20a00d6b070de3f4a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/addon-markdown/zipball/a8a1093f7a26ae67f037cd20a00d6b070de3f4a8",
-                "reference": "a8a1093f7a26ae67f037cd20a00d6b070de3f4a8",
-                "shasum": ""
-            },
-            "require": {
-                "cebe/markdown": "~1.1",
-                "codex/composer-plugin": "~1.0",
-                "codex/core": "1.0.*",
-                "erusev/parsedown-extra": "~0.7",
-                "michelf/php-markdown": "~1.6"
-            },
-            "require-dev": {
-                "cebe/markdown": "~1.1",
-                "erusev/parsedown-extra": "~0.7",
-                "michelf/php-markdown": "~1.6"
-            },
-            "suggest": {
-                "cebe/markdown": "Enables the cebe renderer for the markdown filter (~1.1)",
-                "erusev/parsedown-extra": "Enables the parsedown renderer for the markdown filter (~0.7)",
-                "michelf/php-markdown": "Enables the michelf renderer for the markdown filter (~1.6)"
-            },
-            "type": "codex-addon",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Codex\\Addon\\Markdown\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Robin Radic",
-                    "email": "robin@radic.nl",
-                    "homepage": "http://radic.nl",
-                    "role": "Developer"
-                }
-            ],
-            "description": "addon",
-            "time": "2016-05-30 20:34:41"
+            "time": "2016-06-02 01:01:08"
         },
         {
             "name": "codex/addon-phpdoc",
@@ -273,12 +219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/addon-phpdoc.git",
-                "reference": "ef99cec2308eb34cfc073c61713be6921b662617"
+                "reference": "4a7b42c02638929902fb8cd7433a366a2d504732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/addon-phpdoc/zipball/ef99cec2308eb34cfc073c61713be6921b662617",
-                "reference": "ef99cec2308eb34cfc073c61713be6921b662617",
+                "url": "https://api.github.com/repos/codex-project/addon-phpdoc/zipball/4a7b42c02638929902fb8cd7433a366a2d504732",
+                "reference": "4a7b42c02638929902fb8cd7433a366a2d504732",
                 "shasum": ""
             },
             "require": {
@@ -306,7 +252,7 @@
                 }
             ],
             "description": "addon",
-            "time": "2016-05-30 20:33:02"
+            "time": "2016-06-02 04:01:40"
         },
         {
             "name": "codex/composer-plugin",
@@ -347,18 +293,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codex-project/core.git",
-                "reference": "c9537ae92e4f50925d644a1682ef100f5e7f6b41"
+                "reference": "39807b661984de7d1fd268e833b349c1b9c10e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codex-project/core/zipball/c9537ae92e4f50925d644a1682ef100f5e7f6b41",
-                "reference": "c9537ae92e4f50925d644a1682ef100f5e7f6b41",
+                "url": "https://api.github.com/repos/codex-project/core/zipball/39807b661984de7d1fd268e833b349c1b9c10e0d",
+                "reference": "39807b661984de7d1fd268e833b349c1b9c10e0d",
                 "shasum": ""
             },
             "require": {
+                "cebe/markdown": "~1.1",
                 "doctrine/annotations": "~1.2",
                 "doctrine/common": "~2.6",
-                "erusev/parsedown": "~1.5",
                 "erusev/parsedown-extra": "~0.7",
                 "herrera-io/version": "~1.1",
                 "illuminate/cache": "~5.0",
@@ -366,6 +312,7 @@
                 "illuminate/log": "~5.0",
                 "illuminate/view": "~5.0",
                 "marc-mabe/php-enum": "~2.2",
+                "michelf/php-markdown": "~1.6",
                 "myclabs/php-enum": "~1.4",
                 "nicmart/tree": "0.2.*",
                 "php": ">=5.5.9",
@@ -378,7 +325,15 @@
                 "vlucas/phpdotenv": "^2.2"
             },
             "require-dev": {
-                "orchestra/testbench": "~3.2"
+                "cebe/markdown": "~1.1",
+                "erusev/parsedown-extra": "~0.7",
+                "michelf/php-markdown": "~1.6",
+                "sebwite/testing": "1.0.*"
+            },
+            "suggest": {
+                "cebe/markdown": "Enables the cebe renderer for the markdown filter (~1.1)",
+                "erusev/parsedown-extra": "Enables the parsedown renderer for the markdown filter (~0.7)",
+                "michelf/php-markdown": "Enables the michelf renderer for the markdown filter (~1.6)"
             },
             "type": "library",
             "extra": {
@@ -391,7 +346,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Codex\\Core\\": "src/"
+                    "Codex\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -414,7 +369,7 @@
                 "laravel",
                 "markdown"
             ],
-            "time": "2016-05-30 20:30:35"
+            "time": "2016-06-02 04:01:40"
         },
         {
             "name": "danielstjules/stringy",
@@ -2818,12 +2773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/sebwitepackages/sebwite-git.git",
-                "reference": "3c4f08b8f636ec5db1c5453058aeca3bc2def13c"
+                "reference": "5b7a1a81649e4ab7034d84c99780ac71246e3bb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/sebwitepackages/sebwite-git/get/3c4f08b8f636ec5db1c5453058aeca3bc2def13c.zip",
-                "reference": "3c4f08b8f636ec5db1c5453058aeca3bc2def13c",
+                "url": "https://bitbucket.org/sebwitepackages/sebwite-git/get/5b7a1a81649e4ab7034d84c99780ac71246e3bb2.zip",
+                "reference": "5b7a1a81649e4ab7034d84c99780ac71246e3bb2",
                 "shasum": ""
             },
             "require": {
@@ -2860,7 +2815,7 @@
                 }
             ],
             "description": "Github/Bitbucket api with equal interface and flysystem.",
-            "time": "2016-05-31 02:17:08"
+            "time": "2016-05-31 20:24:54"
         },
         {
             "name": "sebwite/support",
