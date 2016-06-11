@@ -14,6 +14,7 @@
         "codex/composer-plugin": "1.0.*",
         "codex/addon-phpdoc": "1.0.*",
         "codex/addon-git": "1.0.*",
+        "codex/addon-auth": "1.0.*",
         "sebwite/git": "dev-master as 1.0.x-dev"
     },
     "require-dev": {

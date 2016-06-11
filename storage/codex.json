@@ -1,6 +1,7 @@
 {
     "paths": [
         "/mnt/safe/php/production/codex-project.ninja/vendor/codex/addon-git/src",
-        "/mnt/safe/php/production/codex-project.ninja/vendor/codex/addon-phpdoc/src"
+        "/mnt/safe/php/production/codex-project.ninja/vendor/codex/addon-phpdoc/src",
+        "/mnt/safe/php/production/codex-project.ninja/vendor/codex/addon-auth/src"
     ]
 }

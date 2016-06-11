@@ -7,12 +7,19 @@
 
 return [
     'display_name' => 'Codex',
-    'filters'      => [
-        'enabled' => [ 'attributes', 'markdown', 'toc', 'replace_header' ]
+
+    'filters' => [
+        'enabled' => [ 'attributes', 'markdown', 'toc', 'header', 'phpdoc', 'doctags', 'buttons' ],
+        'toc'     => [
+            'header_link_show' => true,
+        ],
     ],
+
     'phpdoc' => [
-        'enabled' => true
+        'enabled' => true,
+        'default_class' => 'Codex\\\Codex',
     ],
+
     'git'  => [
         'enabled' => true,
         'owner'      => 'codex-project',
@@ -21,7 +28,7 @@ return [
         'sync'       => [
             'constraints' => [
                 'branches' => [ 'master' ],
-                'versions' => '>=2.0.0', //1.x || >=2.5.0 || 5.0.0 - 7.2.3'
+                'versions' => '>=1.0.0', //1.x || >=2.5.0 || 5.0.0 - 7.2.3'
             ],
             'paths'       => [
                 'docs'  => 'docs',
