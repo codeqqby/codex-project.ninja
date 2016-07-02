@@ -38,13 +38,19 @@ return [
     'github' => [
         'driver' => 'github',
         'auth'   => Sebwite\Git\Manager::AUTH_TOKEN,
-        'secret' => env('GITHUB_SECRET')
+        'secret' => env('CODEX_GIT_GITHUB_SECRET', ''),
     ],
 
     'bitbucket' => [
-        'driver'      => 'bitbucket',
+        'driver' => 'bitbucket',
         'auth'   => Sebwite\Git\Manager::AUTH_OAUTH,
-        'key'    => env('BITBUCKET_KEY', ''),
-        'secret' => env('BITBUCKET_SECRET', '')
+        'key'    => env('CODEX_GIT_BITBUCKET_KEY', ''),
+        'secret' => env('CODEX_GIT_BITBUCKET_SECRET', ''),
+    ],
+
+    'jira' => [
+        'host'     => env('JIRA_HOST'),
+        'username' => env('JIRA_USERNAME'),
+        'password' => env('JIRA_PASSWORD'),
     ],
 ];

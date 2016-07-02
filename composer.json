@@ -10,12 +10,12 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "predis/predis": "1.0.*",
-        "codex/core": "1.0.*",
-        "codex/composer-plugin": "1.0.*",
-        "codex/addon-phpdoc": "1.0.*",
-        "codex/addon-git": "1.0.*",
-        "codex/addon-auth": "1.0.*",
-        "sebwite/git": "dev-master as 1.0.x-dev"
+        "codex/core": "2.0.*@dev",
+        "codex/composer-plugin": "2.0.*@dev",
+        "codex/addon-phpdoc": "2.0.*@dev",
+        "codex/addon-git": "2.0.*@dev",
+        "codex/addon-jira": "2.0.*@dev",
+        "codex/addon-auth": "2.0.*@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

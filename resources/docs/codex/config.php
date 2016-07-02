@@ -8,10 +8,19 @@
 return [
     'display_name' => 'Codex',
 
-    'filters' => [
-        'enabled' => [ 'attributes', 'markdown', 'toc', 'header', 'phpdoc', 'doctags', 'buttons' ],
+
+    'processors' => [
+        'enabled' => [ 'attributes', 'parser', 'toc', 'header', 'macros', 'buttons', 'links', 'prismjs' ],
         'toc'     => [
             'header_link_show' => true,
+        ],
+        'prismjs' => [
+            'plugins' => [
+                # 'show-invisibles',
+                'autoloader',
+                'command-line',
+                'show-language',
+            ],
         ],
     ],
 
@@ -20,23 +29,23 @@ return [
         'default_class' => 'Codex\\\Codex',
     ],
 
-    'git'  => [
+    'git' => [
         'enabled' => true,
-        'owner'      => 'codex-project',
+        'owner' => 'codex-project',
         'repository' => 'core',
-        'connection'     => 'github',
-        'sync'       => [
+        'connection' => 'github',
+        'sync' => [
             'constraints' => [
                 'branches' => [ 'master' ],
-                'versions' => '>=1.0.0', //1.x || >=2.5.0 || 5.0.0 - 7.2.3'
+                'versions' => '>=2.0.0', //1.x || >=2.5.0 || 5.0.0 - 7.2.3'
             ],
-            'paths'       => [
-                'docs'  => 'docs',
-                'menu'  => 'docs/menu.yml',
+            'paths' => [
+                'docs' => 'docs',
+                'menu' => 'docs/menu.yml',
                 'index' => 'docs/index.md'
             ]
         ],
-        'webhook'    => [
+        'webhook' => [
             'enabled' => true
         ],
     ],
